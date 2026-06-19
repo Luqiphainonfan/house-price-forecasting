@@ -1,0 +1,39 @@
+{
+  "best_model": "gradient_boosting",
+  "all_results": {
+    "linear_regression": {
+      "mae": 5633277537.720539,
+      "rmse": 19098143760.283077,
+      "r2": -0.3205806128029858
+    },
+    "random_forest": {
+      "mae": 2943550402.2202215,
+      "rmse": 7561023203.408654,
+      "r2": 0.7930126794835555
+    },
+    "gradient_boosting": {
+      "mae": 2947923086.8159866,
+      "rmse": 7469983394.073835,
+      "r2": 0.7979672042744411
+    },
+    "xgboost": {
+      "mae": 2864361844.162538,
+      "rmse": 7539714444.06545,
+      "r2": 0.7941777143635387
+    }
+  },
+  "feature_names": [
+    "bed_rooms",
+    "bath_rooms",
+    "carport",
+    "land_area",
+    "building_area",
+    "district_freq",
+    "city_Jakarta Barat",
+    "city_Jakarta Pusat",
+    "city_Jakarta Selatan",
+    "city_Jakarta Timur",
+    "city_Jakarta Utara"
+  ],
+  "selection_metric": "r2"
+}

@@ -1,0 +1,24 @@
+# Python cache
+__pycache__/
+*.pyc
+*.pyo
+
+# Virtual environment
+venv/
+env/
+.venv/
+
+# Jupyter checkpoint
+.ipynb_checkpoints/
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Streamlit local config (jika ada secrets)
+.streamlit/secrets.toml
+
+# CATATAN PENTING:
+# models/model.pkl dan models/preprocessor.pkl SENGAJA TIDAK di-ignore
+# karena dibutuhkan oleh app.py saat dijalankan di Streamlit Cloud
+# (Streamlit Cloud TIDAK menjalankan src/train.py otomatis)
